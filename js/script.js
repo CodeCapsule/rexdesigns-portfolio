@@ -41,11 +41,11 @@ function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark");
-    logoImage.src = "./assets/logo-white.png";
+    logoImage.src = "assets/logo-white.png";
   } else {
     document.documentElement.setAttribute("data-theme", "light");
     localStorage.setItem("theme", "light");
-    logoImage.src = "./assets/logo.png";
+    logoImage.src = "assets/logo.png";
   }
 }
 
@@ -60,7 +60,7 @@ if (currentTheme) {
 
   if (currentTheme === "dark") {
     toggleSwitch.checked = true;
-    logoImage.src = "./assets/logo-white.png";
+    logoImage.src = "assets/logo-white.png";
   }
 }
 
