@@ -35,13 +35,17 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 
 //  Store color theme for future visits
 
+const logoImage = document.querySelector("#logo img");
+
 function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute("data-theme", "dark");
-    localStorage.setItem("theme", "dark"); //add this
+    localStorage.setItem("theme", "dark");
+    logoImage.src = "./assets/logo-white.png";
   } else {
     document.documentElement.setAttribute("data-theme", "light");
-    localStorage.setItem("theme", "light"); //add this
+    localStorage.setItem("theme", "light");
+    logoImage.src = "./assets/logo.png";
   }
 }
 
@@ -56,6 +60,7 @@ if (currentTheme) {
 
   if (currentTheme === "dark") {
     toggleSwitch.checked = true;
+    logoImage.src = "./assets/logo-white.png";
   }
 }
 
