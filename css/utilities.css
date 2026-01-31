@@ -55,7 +55,7 @@ h2::selection {
   cursor: pointer;
 }
 
-.toggle-icons > img {
+.toggle-icons>img {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   width: 30px;
 }
@@ -64,11 +64,11 @@ h2::selection {
   transform: rotate(10deg);
 }
 
-#switch:checked + .toggle-icons .moon {
+#switch:checked+.toggle-icons .moon {
   transform: rotate(250deg);
 }
 
-#switch:checked + .toggle-icons .sun {
+#switch:checked+.toggle-icons .sun {
   transform: rotate(100deg);
 }
 
@@ -82,7 +82,7 @@ h2::selection {
   padding: 1rem;
 }
 
-.header-container > div {
+.header-container>div {
   margin-top: 1rem;
 }
 
@@ -136,27 +136,27 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-one.jpg) center center/contain no-repeat;
+  background: url(../assets/project/project-one.jpg?v=2) center center/contain no-repeat;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-two.jpg) center center/contain no-repeat;
+  background: url(../assets/project/project-two.jpg?v=2) center center/contain no-repeat;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/project-three.jpg) center center/contain no-repeat;
+  background: url(../assets/project/project-three.jpg?v=2) center center/contain no-repeat;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/project-four.jpg) center center/contain no-repeat;
+  background: url(../assets/project/project-four.jpg?v=2) center center/contain no-repeat;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(../assets/project/project-five.jpg) center center/contain no-repeat;
+  background: url(../assets/project/project-five.jpg?v=2) center center/contain no-repeat;
 }
 
 /* Project 6 */
