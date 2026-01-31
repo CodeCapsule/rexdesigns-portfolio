@@ -136,27 +136,27 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-one.png) center center/cover;
+  background: url(../assets/project/project-one.jpg) center center/contain no-repeat;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-two.png) center center/cover;
+  background: url(../assets/project/project-two.jpg) center center/contain no-repeat;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/project-three.png) center center/cover;
+  background: url(../assets/project/project-three.jpg) center center/contain no-repeat;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/project-four.png) center center/cover;
+  background: url(../assets/project/project-four.jpg) center center/contain no-repeat;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(../assets/project/project-five.png) center center/cover;
+  background: url(../assets/project/project-five.jpg) center center/contain no-repeat;
 }
 
 /* Project 6 */
